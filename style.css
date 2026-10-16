@@ -1,0 +1,121 @@
+/* Zerano os espaçamentos automáticos dos elementos */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 1120px;
+    padding: 88px 80px;
+    margin: auto;
+    background-color: #f5f4f0;
+}
+
+#headline-busan {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e1624f;
+    padding:  0px 0px 8px 0px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b1b1b;
+    padding: 8px 0px 40px 0px;
+}
+
+#img-busan {
+    width: 100%;
+    height: 660px;
+    border-radius: 28px;
+    object-fit: cover; /* Ajusta a imagem para não ficar serrilhado e para caber dentro de um espaço ajundando para as bordas que era o meu caso */
+}
+
+#busan {
+    padding: 4px 0px 4px 0px;
+}
+
+hr {
+    background-color: #d9d9d9;
+    height: 1px;
+    border: none;
+}
+
+#description-busan {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+    padding: 24px 20px 40px 20px;
+}
+
+#headline-destination {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e1624f;
+    padding: 64px 0px 2px 0px;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1b1b1b;
+    padding: 2px 0px 8px 0px;;
+}
+
+#text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 0px 0px 64px 0px;
+}
+
+#img-destination {
+    width: 100%;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+ol {
+    list-style-type: none;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0px 4px 0px;
+}
+
+#good-for {
+    color: #0c51a7;
+}
+
+#good-for-couples {
+    color:#591B98
+}
+
+#good-for-families {
+    color:#E5245E
+}
+
+#good-for-budgets {
+    color:#E95E10
+}
+
+#description-end {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+    padding: 40px 0px 0px 0px;
+}
